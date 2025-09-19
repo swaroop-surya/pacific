@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --hostname 0.0.0.0 --port 5000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --hostname 0.0.0.0 --port 5000",
     "lint": "eslint",
     "setup-db": "node scripts/setup-database.js",
     "generate-icons": "node scripts/generate-icons.js",
